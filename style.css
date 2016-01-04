@@ -1,10 +1,42 @@
 body {
-  font-family: 'calibri', calibri, sans-serif;
+  font-family: 'arial', arial, sans-serif;
   font-weight: 500;
   background-image: url(random-wallpapers-american-flag-wallpaper-34317.jpg);
   background-repeat: repeat;
+  background-attachment: fixed;
 }
 #wrapper {
   width: 960px;
   margin: 20px auto 20px auto;
+}
+h1 {
+	color: red;
+	font-family: 'impact',impact;
+	font-weight: 600;
+	font-size: 72px;
+	text-align: center;
+	/*do not include this*/
+}
+h4 {
+	color: white;
+	text-decoration: underline;
+	font-weight: 200;
+}
+#summary {
+	color:orange;
+	color:#;
+}
+img{
+	width:400px;
+	border-color: white;
+	border-style:solid;
+	border-width:4px;
+	background-image-align: center;
+}
+#jack{
+	text-align: center;
+}
+a{
+	color:yellow;
+	font-family: 'impact',impact;
 }
