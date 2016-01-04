@@ -1,0 +1,10 @@
+body {
+  font-family: 'calibri', calibri, sans-serif;
+  font-weight: 500;
+  background-image: url(random-wallpapers-american-flag-wallpaper-34317.jpg);
+  background-repeat: repeat;
+}
+#wrapper {
+  width: 960px;
+  margin: 20px auto 20px auto;
+}
