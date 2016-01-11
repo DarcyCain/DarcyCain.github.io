@@ -1,7 +1,7 @@
 body {
   font-family: 'arial', arial, sans-serif;
   font-weight: 500;
-  background-image: url(random-wallpapers-american-flag-wallpaper-34317.jpg);
+  background-image: url(Underwater-Ocean-Background-Tumblr-5.jpg);
   background-repeat: repeat;
   background-attachment: fixed;
 }
@@ -10,8 +10,8 @@ body {
   margin: 20px auto 20px auto;
 }
 h1 {
-	color: red;
-	font-family: 'impact',impact;
+	color: rgb(55, 51, 221);
+	font-family: 'impact',impact, arial, sans-serif;
 	font-weight: 600;
 	font-size: 72px;
 	text-align: center;
@@ -22,10 +22,6 @@ h4 {
 	text-decoration: underline;
 	font-weight: 200;
 }
-#summary {
-	color:orange;
-	color:#;
-}
 img{
 	width:400px;
 	border-color: white;
@@ -33,10 +29,22 @@ img{
 	border-width:4px;
 	background-image-align: center;
 }
-#jack{
+#darcy{
 	text-align: center;
 }
 a{
 	color:yellow;
 	font-family: 'impact',impact;
+}
+h2{
+	text-align: center;
+	color: rgb(55, 51, 221);
+}
+h3{
+	text-align: center;
+	color:rgb(55, 51, 221);
+
+#Sicario{
+	width:400px;
+	text-align:center;
 }
