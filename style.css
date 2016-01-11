@@ -17,11 +17,6 @@ h1 {
 	text-align: center;
 	/*do not include this*/
 }
-h4 {
-	color: white;
-	text-decoration: underline;
-	font-weight: 200;
-}
 img{
 	width:400px;
 	border-color: white;
@@ -43,8 +38,9 @@ h2{
 h3{
 	text-align: center;
 	color:rgb(55, 51, 221);
-
-#Sicario{
-	width:400px;
-	text-align:center;
+}
+.unicorns{
+	color:white;
+	text-decoration: underline;
+	font-weight: 200;
 }
