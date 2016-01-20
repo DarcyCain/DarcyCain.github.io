@@ -17,12 +17,11 @@ h1 {
 	text-align: center;
 	/*do not include this*/
 }
-img{
-	width:400px;
-	border-color: white;
-	border-style:solid;
-	border-width:4px;
-	background-image-align: center;
+#Copenhagen{
+	width:1000px;
+}
+#Slovenia{
+	width:1000px;
 }
 #darcy{
 	text-align: center;
