@@ -1,45 +1,111 @@
-body {
-  font-family: 'arial', arial, sans-serif;
-  font-weight: 500;
-  background-image: url(Underwater-Ocean-Background-Tumblr-5.jpg);
-  background-repeat: repeat;
-  background-attachment: fixed;
-}
-#wrapper {
-  width: 960px;
-  margin: 20px auto 20px auto;
-}
-h1 {
-	color: rgb(55, 51, 221);
-	font-family: 'impact',impact, arial, sans-serif;
-	font-weight: 600;
-	font-size: 72px;
-	text-align: center;
-	/*do not include this*/
-}
-#Copenhagen{
-	width:1000px;
-}
-#Slovenia{
-	width:1000px;
-}
-#darcy{
+<<<<<<< HEAD
+h1{
+	color:#3B579D;
 	text-align: center;
 }
-a{
-	color:yellow;
-	font-family: 'impact',impact;
+.navbar-inverse {
+    background-color: white;
+    border-color: white;
 }
-h2{
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: white;
+}
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    text-align: center;
+}
+#backpack{
+	width:50px;
+	border-color: #3B579D;
+	vertical-align: middle;
+}
+.navbar-default {
+    background-color: white;
+    border-color: white;
+}
+.dropdown{
+    color: black;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    vertical-align: middle;
+}
+#landing{
+	width:1500px;
 	text-align: center;
-	color: rgb(55, 51, 221);
 }
-h3{
-	text-align: center;
-	color:rgb(55, 51, 221);
-}
-.unicorns{
+.shop{
+	font-size: 14px;
 	color:white;
-	text-decoration: underline;
-	font-weight: 200;
+	font-style: underline;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.jumbotron {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: inherit;
+    background-color: #eee;
+}
+img {
+	display: block;
+    vertical-align: middle;
+    text-align: center;
+
+}
+.micro{
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+    padding-bottom: 12px;
+}
+#microsoft{
+	vertical-align: middle;
+}
+#appstore{
+	width: 1500px;
+	background-position: center;
+}
+.feature-title{
+	text-align: center;
+}
+.feature-description{
+	text-align: center;
+}
+#work{
+	text-align: center;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+=======
+h1 {
+  color: red;
+}
+.navbar-inverse {
+  background-color: red;
+  border-color: red;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: red;
+>>>>>>> origin/master
+}
+#itinerary{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
