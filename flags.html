@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Have you been here?</title>
+    <!-- Bootstrap and jQuery -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="flags.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- My own Javascript -->
+    <script src="flags.js"></script>
+  </head>
+  <body>
+
+
+<div class="container-fluid">
+  <!-- Navigation Bar Begins -->
+
+  <nav class="navbar navbar-default">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://littlebluebackpack.me/"><img id="backpack" src="the-north-face-mochilas-the-north-face-jester-mochila-nautical-blue.jpg"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Kellogg<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Classes</a></li>
+            <li><a href="www.parkevanston.com/">Apartment</a></li>
+            <li><a href="#">Clubs</a></li>
+            <li><a href="#">KWest</a></li>
+            <li><a href="#">Nightlife</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Travels <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">My Itinerary</a></li>
+            <li><a href="http://bigbluebackpack.wordpress.com/">My Blog</a></li>
+            <li><a href="#">My Pictures</a></li>
+            <li><a href="#">My Recommendations</a></li>
+            <li><a href="http://bigbluebackpack.wordpress.com/2015/08/14/life-lessons-i-learned-while-traveling/">My Life Lessons</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pre-Mba <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://www.ucsb.edu">College</a></li>
+            <li><a href="www.varitalk.com/">Varitalk</a></li>
+            <li><a href="http://www.impawards.com/designers/crew_creative.html">Crew Creative</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/List_of_Summit_Entertainment_films">Summit Entertainment</a></li>
+            <li><a href="http://www.lionsgate.com/">Lionsgate</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+          <button type="submit" class="btn btn-default"><i class="fa fa-search"></i>
+        </button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- Jumbotron Begins -->
+    <div class="jumbotron" id="container">
+     <img id="appstore" class="img-responsive" alt="Responsive image"src="IMG_3816.jpg"  title="Mostar"> 
+     </div>
+    </div>
+  
+
+    <div class="container">
+      <h1 id="here">How Many Countries Have You Been to?</h1>
+      <div class="row">
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ad.png"> Andorra</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ae.png">United Arab Emirates</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="af.png">Aghanistan</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ag.png">Antigua and Barbuda</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="al.png">Anguilla</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="am.png">Armenia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ao.png">Angola</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ar.png">Argentina</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="at.png">Austria</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="au.png">Australia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="az.png">Azerbaijn</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ba.png">Bosnia & Herzegovina</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="bb.png">Barbados</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="bd.png">Bangladesh</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="be.png">Belgium</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="bf.png">Burkina Faso</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="bg.png">Bulgaria</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="bh.png">Bahrain</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="bi.png">Burundi</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="bj.png">Benin</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="bn.png">Brunei Darussalam</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="bo.png">Bolivia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="br.png"> Brazil </a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="bs.png">Bahamas</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="bt.png">Bhutan</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="bw.png">Botswana</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="by.png">Belarus</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="bz.png">Belize</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ca.png">Canada</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="cd.png">Democratic Republic of the COngo</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="cf.png">Central African Republic</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="cg.png">Congo</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ch.png">Switzerland</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ci.png">Cate D'Ivoire</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="cl.png">Chile</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="cm.png">Cameroon</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="cn.png">China</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="co.png">Colombia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="cr.png">Costa Rica</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="cu.png">Cuba</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="cv.png">Cape Verde</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="cy.png">Cyprus</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="cz.png">Czech Republic</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="de.png">Germany</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="dj.png">Djibouti</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="dk.png">Denmark</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="dm.png">Dominica</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="do.png">Dominican Republic</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="dz.png">Algeria</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ec.png">Ecuador</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ee.png">Estonia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="eg.png">Egypt</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="eh.png">Western Sahara</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="er.png">Eritrea</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="es.png">Spain</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="et.png">Ethiopia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="fi.png">Finland</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="fj.png">Fiji</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="fm.png">FS of Micronesia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="fr.png">France</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ga.png">Gabon</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="gb.png">Great Britain</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="gd.png">Grenada</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ge.png">Georgia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="gh.png">Ghana</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="gm.png">Gambia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="gn.png">Guinea</a>
+        </div>
+         <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="gq.png">Equatorial Guinea</a>
+        </div>
+         <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="gr.png">Greece</a>
+        </div>
+         <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="gt.png">Guatemala</a>
+        </div>
+         <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="gw.png">Guinea-Bissau</a>
+        </div>
+         <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="gy.png">Guyana</a>
+        </div>
+         <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="hn.png">Honduras</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="hr.png"></a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ht.png">Haiti</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="hu.png">Hungary</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="id.png">Indonesia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ie.png">Ireland</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="il.png">Israel</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="in.png">India</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="iq.png">Iraq</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ir.png">Iran</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="is.png">Iceland</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="it.png">Italy</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="jm.png">Jamaica</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="jo.png">Jordan</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="jp.png">Japan</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ke.png">Kenya</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="kg.png">Kyrgyzstan</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="kh.png">Cambodia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ki.png">Kiribati</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="km.png">Comoros</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="kn.png">Saint Kitts and Nevis</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="kp.png">North Korea</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="kr.png">South Korea</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ks.png">Kosovo</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="kw.png">Kuwait</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="kz.png">Kazakhstan</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="la.png">Laos</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="lb.png">Lebanon</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="lc.png">Saint Lucia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="li.png">Liechtenstein</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="lk.png">Sri Lanka</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="lr.png">Liberia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ls.png">Lesotho</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="lt.png">Lithuania</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="lu.png">Luxemborg</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="lv.png">Latvia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ly.png">Libya</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ma.png">Morocco</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="mc.png">Monaco</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="md.png">Moldova</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="me.png">Montenegro</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="mg.png">Madagascar</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="mh.png">Marshall Islands</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="mk.png">Macedonia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ml.png">Mali</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="mm.png">Mynamar</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="mn.png">Mongolia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="mr.png">Mauritania</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="mt.png">Malta</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="mu.png">Mauritius</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="mv.png">Maldives</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="mw.png">Malawi</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="mx.png">Mexico</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="my.png">Malaysia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="mz.png">Mozambique</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="na.png">Namibia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ne.png">Niger</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ng.png">Nigeria</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ni.png">Nicaragua</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="nl.png">Netherlands</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="no.png">Norway</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="np.png">Nepal</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="nz.png">New Zealand</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="om.png">Oman</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="pa.png">Panama</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="pe.png">Peru</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="pg.png">Papau New Guinea</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ph.png">Phillipines</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="pk.png">Pakistan</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="pl.png">Poland</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="pt.png">Portugal</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="pw.png">Palau</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="py.png">Paraguay</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="qa.png">Qatar</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ro.png">Romania</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="rs.png">Serbia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ru.png">Russia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="rw.png">Rwanda</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="sa.png">South Africa</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="sb.png">Solomon Islands</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="sc.png">Sychelles</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="sd.png">Sudan</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="se.png">Sweden</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="sg.png">Singapore</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="si.png">Slovenia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="sk.png">Slovakia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="sl.png">Sierra Leone</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="sm.png">San Marino</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="sn.png">Senegal</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="so.png">Somalia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="sr.png">Suriname</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="st.png">Sao Tome and Principe</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="sv.png">El Salvador</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="sy.png">Syrian Arab Republic</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="sz.png">Swaziland</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="td.png">Chad</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="tg.png">Togo</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="th.png">Thailand</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="tj.png">Tajikistan</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="tm.png">Turkmenistan</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="tn.png">Tunisia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="to.png">Tonga</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="tr.png">Turkey</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="tt.png">Trinidad and Tobago</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="tv.png">Tuvalu</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="tw.png">Taiwan</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="tz.png">Tanzania</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ua.png">Ukraine</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ug.png">Uganda</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="us.png">United States</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="uy.png">Urugay</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="uz.png">Uzbekistan</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="va.png">Vatican City</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="vc.png">Saint Vincent and Grenadines</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ve.png">Venezuela</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="vn.png">Vietnam</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="vu.png">Vanuatu</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ws.png">Western Samoa</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="ye.png">Yemen</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="za.png">South Africa</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="zm.png">Zambia</a>
+        </div>
+        <div class="col-xs-4 col-sm-2">
+          <a href="#" class="thumbnail"><img src="zw.png">Zimbabwe</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
