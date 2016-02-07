@@ -7,7 +7,13 @@ $(function() {
     flagcounter++;
     console.log(elementThatWasClicked);
     console.log(flagcounter);
-    $(".flagcounter").text(flagcounter);
+    if (flagcounter == 1) {
+		$(".flagcounter").text(flagcounter + " country");
+    }
+     else {
+    	$(".flagcounter").text(flagcounter + " countries");
+    }
+
     elementThatWasClicked.parent().remove();
   })
 
