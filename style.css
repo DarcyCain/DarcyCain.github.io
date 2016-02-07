@@ -127,3 +127,19 @@ h1 {
     bottom:0;
     height: 10px;
 }
+.div{
+    margin-bottom: 10px;
+    bottom:10px;
+    text-align: center;
+     display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#hg{
+    margin-bottom: 10px;
+    bottom: 10px;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
